@@ -25,19 +25,5 @@
         Response.Redirect("Accesorios.aspx")
     End Sub
 
-    Protected Sub BtnFacturas_Click(sender As Object, e As EventArgs) Handles BtnFacturas.Click
-        Response.Redirect("Facturas.aspx")
-    End Sub
 
-    Protected Sub BtnPrendas_Click(sender As Object, e As EventArgs) Handles BtnPrendas.Click
-        Response.Redirect("ConsultaPrendas.aspx")
-    End Sub
-
-    Protected Sub BtnCategorias_Click(sender As Object, e As EventArgs) Handles BtnCategorias.Click
-        Response.Redirect("ConsultaCategorias.aspx")
-    End Sub
-
-    Protected Sub BtnUsuario_Click(sender As Object, e As EventArgs) Handles BtnUsuario.Click
-        Response.Redirect("ConsultaUsuarios.aspx")
-    End Sub
 End Class

@@ -1117,6 +1117,9 @@ figure {
 }
 img {
   vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 .img-responsive,
 .thumbnail > img,
@@ -1291,6 +1294,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+    height: 0px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1589,6 +1593,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+    height: 71px;
 }
 @media (min-width: 768px) {
   .container {
@@ -4234,6 +4239,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
+    height: 68px;
+    width: 1341px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
@@ -4256,8 +4263,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
-  right: 0;
-  left: 0;
+  right: 16px;
+  left: -1px;
   z-index: 1030;
 }
 @media (min-width: 768px) {
@@ -4267,7 +4274,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-fixed-top {
-  top: 0;
+  top: -3px;
   border-width: 0 0 1px;
 }
 .navbar-fixed-bottom {
